@@ -24,29 +24,19 @@ This will install all of the required packages we selected within the `requireme
 
 ##### Key Dependencies
 
-- [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. Flask is required to handle requests and responses.
+- [Flask]
 
-- [SQLAlchemy](https://www.sqlalchemy.org/) and [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) are libraries to handle the lightweight sqlite database. Since we want you to focus on auth, we handle the heavy lift for you in `./src/database/models.py`. We recommend skimming this code first so you know how to interface with the Drink model.
+- [SQLAlchemy]
 
-- [jose](https://python-jose.readthedocs.io/en/latest/) JavaScript Object Signing and Encryption for JWTs. Useful for encoding, decoding, and verifying JWTS.
+- [jose]
 
 ## Running the server
-
-From within the `./src` directory first ensure you are working using your created virtual environment.
-
-Each time you open a new terminal session, run:
-
-```bash
-export FLASK_APP=api.py;
-```
 
 To run the server, execute:
 
 ```bash
 flask run --reload
 ```
-
-The `--reload` flag will detect file changes and restart the server automatically.
 
 ## Tasks
 
